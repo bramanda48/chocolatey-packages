@@ -1,28 +1,64 @@
-# Chocolatey Packages
+<a name="readme-top"></a>
 
-~~~
-<!-- EDIT ME-->
+<div align="center">
+  <a href="https://github.com/bramanda48/chocolatey-packages">
+    <img src="https://chocolatey.org/assets/images/global-shared/logo-square.svg" alt="Screenshoot" width="500px">
+  </a>
+  <h2 align="center">Chocolatey Packages</h2>
+  <div align="center">
+    <h4 align="center">Small tool to add container address into hosts file on Windows and Linux</h4>
+    <div>
+        <a href="https://ci.appveyor.com/project/bramanda48/chocolatey-packages"><img src="https://ci.appveyor.com/api/projects/status/github/bramanda48/chocolatey-packages?svg=true" alt="Chocolatey Packages"></a>
+        <a href="https://gist.github.com/bramanda48/fda2c496c40ad990cdb6225ca6634e1b"><img src="https://img.shields.io/badge/Gist-Update_AU_Packages-2ea44f" alt="Update AU Packages"></a>
+    </div>
+  </div>
+</div>
 
-[![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
-[Update status](https://gist.github.com/YOUR_GITHUB_USERNAME_HERE/YOUR_GIST_ID)
+## Folder Structure
 
-<!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
-~~~
-
-### Folder Structure
-
-* automatic - where automatic packaging and packages are kept. These are packages that are automatically maintained using either [AU](https://chocolatey.org/packages/au) or [Ketarin](https://chocolatey.org/packages/ketarin)/[ChocolateyPackageUpdater](https://chocolatey.org/packages/chocolateypackageupdater) combo.
+* automatic - where automatic packaging and packages are kept. These are packages that are automatically maintained using [AU](https://chocolatey.org/packages/au).
 * icons - Where you keep icon files for the packages. This is done to reduce issues when packages themselves move around.
 * manual - where packages that are not automatic are kept.
 * setup - items for prepping the system to ensure for auto packaging.
 
 For setting up your own automatic package repository, please see [Automatic Packaging](https://chocolatey.org/docs/automatic-packages)
 
-### Requirements
+## Requirements
 
 * Chocolatey (choco.exe)
+* The [AU module](https://chocolatey.org/packages/au). 
+* PowerShell v5+
 
-#### AU
+#### AU Installation Info & Powershell Function
 
-* PowerShell v5+.
-* The [AU module](https://chocolatey.org/packages/au).
+  * <strong>Module path</strong> : `C:\ProgramData\chocolatey\lib\au\tools\AU`
+  * AU version 2022.10.24 installed successfully at `C:\Program Files\WindowsPowerShell\Modules\AU`
+
+  | Branch                    | Alias     |
+  |---------------------------|-----------|
+  | Get-AUPackages            | gau lsau  |
+  | Get-RemoteChecksum        | -         |
+  | Get-RemoteFiles           | -         |
+  | Get-Version               | -         |
+  | Push-Package              | -         |
+  | Set-DescriptionFromReadme | -         |
+  | Test-Package              | -         |
+  | Update-AUPackages         | updateall |
+  | Update-Package            | update    |
+
+  To learn more about AU:      
+  ```
+  man about_AU
+  ```
+
+  See help for any function:
+  ```
+  man updateall
+  ```
+
+## Acknowledgments
+Inspiration, code snippets, icon, etc.
+* [https://github.com/chocolatey-community/chocolatey-au](https://github.com/chocolatey-community/chocolatey-au)
+* [https://github.com/chocolatey-community/chocolatey-test-environment](https://github.com/chocolatey-community/chocolatey-test-environment)
+* [https://github.com/chtof/chocolatey-packages](https://github1s.com/chtof/chocolatey-packages)
+* [https://github.com/dgalbraith/chocolatey-packages](https://github.com/dgalbraith/chocolatey-packages)

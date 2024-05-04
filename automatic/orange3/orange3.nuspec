@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>orange3</id>
+    <version>3.36.2</version>
+    <packageSourceUrl>https://github.com/bramanda48/chocolatey-packages/tree/master/automatic/orange3</packageSourceUrl>
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>bramanda48</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Orange Data Mining</title>
+    <authors>Bioinformatics Laboratory, University of Ljubljana</authors>
+    <projectUrl>https://orangedatamining.com</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/bramanda48/chocolatey-packages/icons/orange3.png</iconUrl>
+    <copyright>© 2016 Bioinformatics Laboratory, University of Ljubljana, Faculty of Computer and Information Science</copyright>
+    <licenseUrl>https://orangedatamining.com/license</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/biolab/orange3</projectSourceUrl>
+    <docsUrl>https://orangedatamining.com/docs</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/biolab/orange3/issues</bugTrackerUrl>
+    <tags>orangedatamining orange3 orange machine-learning data-mining text-mining</tags>
+    <summary>Orange Data Mining - Open source machine learning and data visualization.</summary>
+    <description><![CDATA[
+Orange is a data mining and visualization toolbox for novice and expert alike. To explore data with Orange, one requires no programming or in-depth mathematical knowledge. We believe that workflow-based data science tools democratize data science by hiding complex underlying mechanics and exposing intuitive concepts. Anyone who owns data, or is motivated to peek into data, should have the means to do so.
+
+![screenshot](https://cdn.jsdelivr.net/gh/irgolic/orange3@README-shields/distribute/orange-example-tall.png)
+]]></description>
+    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

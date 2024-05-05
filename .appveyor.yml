@@ -36,7 +36,7 @@ environment:
   gist_id: fda2c496c40ad990cdb6225ca6634e1b
 
   # Force test: gist id for test results
-  gist_id_test: add6226bdbba8b8df5990c63f9b4ff39
+  gist_id_test: fda2c496c40ad990cdb6225ca6634e1b
 
   # Chocolatey API key - to push updated packages
   # Encrypt it with: https://ci.appveyor.com/tools/encrypt

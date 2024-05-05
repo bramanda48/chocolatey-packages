@@ -23,7 +23,7 @@
     <tags>orangedatamining orange3 orange machine-learning data-mining text-mining</tags>
     <summary>Orange Data Mining - Open source machine learning and data visualization.</summary>
     <description><![CDATA[
-Orange is a data mining and visualization toolbox for novice and expert alike. To explore data with Orange, one requires no programming or in-depth mathematical knowledge. We believe that workflow-based data science tools democratize data science by hiding complex underlying mechanics and exposing intuitive concepts. Anyone who owns data, or is motivated to peek into data, should have the means to do so.
+Orange is an open-source data visualization and analysis tool, designed for both novice and expert users. It offers a visual programming interface for building workflows without coding, making it accessible to those without programming experience. With its intuitive drag-and-drop interface, users can preprocess data, perform various analytical tasks, and visualize results using a wide range of built-in tools and algorithms. Orange supports machine learning, data mining, and data visualization techniques, making it a versatile tool for data exploration and analysis.
 
 ![screenshot](https://cdn.jsdelivr.net/gh/irgolic/orange3@README-shields/distribute/orange-example-tall.png)
 ]]></description>

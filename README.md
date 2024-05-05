@@ -11,7 +11,7 @@
     </p>
     <div>
         <a href="https://ci.appveyor.com/project/bramanda48/chocolatey-packages"><img src="https://ci.appveyor.com/api/projects/status/github/bramanda48/chocolatey-packages?svg=true" alt="Chocolatey Packages"></a>
-        <a href="https://gist.github.com/bramanda48/fda2c496c40ad990cdb6225ca6634e1b"><img src="https://img.shields.io/badge/Gist-Update_AU_Packages-2ea44f" alt="Update AU Packages"></a>
+        <a href="https://gist.github.com/bramanda48/fda2c496c40ad990cdb6225ca6634e1b"><img src="https://img.shields.io/badge/Gist-See_Updates_Report-blue?logo=github" alt="See Updates Report"></a>
     </div>
   </div>
 </div>

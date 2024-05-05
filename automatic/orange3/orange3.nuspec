@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>orange3</id>
-    <version>3.36.2</version>
+    <version>{{PackageVersion}}</version>
     <packageSourceUrl>https://github.com/bramanda48/chocolatey-packages/tree/master/automatic/orange3</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>bramanda48</owners>

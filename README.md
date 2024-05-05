@@ -6,7 +6,9 @@
   </a>
   <h2 align="center">Chocolatey Packages</h2>
   <div align="center">
-    <h4 align="center">Small tool to add container address into hosts file on Windows and Linux</h4>
+    <p align="center">
+      This repository contains <a href="https://chocolatey.org/docs/getting-started#what-are-chocolatey-packages">chocolatey packages</a> that are maintained by bramanda48, both manual and automatic.
+    </p>
     <div>
         <a href="https://ci.appveyor.com/project/bramanda48/chocolatey-packages"><img src="https://ci.appveyor.com/api/projects/status/github/bramanda48/chocolatey-packages?svg=true" alt="Chocolatey Packages"></a>
         <a href="https://gist.github.com/bramanda48/fda2c496c40ad990cdb6225ca6634e1b"><img src="https://img.shields.io/badge/Gist-Update_AU_Packages-2ea44f" alt="Update AU Packages"></a>
@@ -60,5 +62,6 @@ For setting up your own automatic package repository, please see [Automatic Pack
 Inspiration, code snippets, icon, etc.
 * [https://github.com/chocolatey-community/chocolatey-au](https://github.com/chocolatey-community/chocolatey-au)
 * [https://github.com/chocolatey-community/chocolatey-test-environment](https://github.com/chocolatey-community/chocolatey-test-environment)
-* [https://github.com/chtof/chocolatey-packages](https://github1s.com/chtof/chocolatey-packages)
+* [https://github.com/chtof/chocolatey-packages](https://github.com/chtof/chocolatey-packages)
 * [https://github.com/dgalbraith/chocolatey-packages](https://github.com/dgalbraith/chocolatey-packages)
+* [https://www.youtube.com/watch?v=m2XpV2LxyEI](https://www.youtube.com/watch?v=m2XpV2LxyEI)

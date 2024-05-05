@@ -23,13 +23,13 @@ environment:
 
   # Mail credentials - for error notifications
   # Encrypt it with: https://ci.appveyor.com/tools/encrypt
-  mail_user:
-    secure: l2TGydsQANNro3l0qIS8qwDxSu4vhxoEwzo2dlegLu4=
-  mail_pass:
-    secure: by4KrFnFnvpPY5WnQ5EEhwQtQ6kkNMhRZTiJrk+rD88=
-  mail_server: smtp.malang.dev
-  mail_port: 587
-  mail_enablessl: true
+  # mail_user:
+  #   secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING
+  # mail_pass:
+  #   secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING
+  # mail_server: smtp.gmail.com
+  # mail_port: 587
+  # mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
